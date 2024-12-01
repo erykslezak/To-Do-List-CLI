@@ -1,6 +1,7 @@
 package main
 
 import (
+	"To_Do_List_CLI/cmd"
 	"encoding/csv"
 	"fmt"
 	"github.com/mergestat/timediff"
@@ -11,7 +12,7 @@ import (
 )
 
 func main() {
-	PrintToDo()
+	cmd.Execute()
 }
 
 func PrintToDo() {
